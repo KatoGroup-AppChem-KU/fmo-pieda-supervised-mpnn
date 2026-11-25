@@ -1,0 +1,21 @@
+{
+  "source_archive_sha256": "10d2788283ccb914d7e2d37acb41b4ca2531cc7608f574a7a95fb782c845a04d",
+  "structures_sha256": "fa2b9f025a35cd4817f6ff847119f8a5d6b6833854833941d07ec45798653a05",
+  "split_seed": 42,
+  "algorithm": "sorted PDB groups; one numpy default_rng(42); bdb-only, scop2-only, shared; shuffle each; round(0.1*N) first to test; numpy.array_split remainder into 5",
+  "numpy_version": "2.2.6",
+  "test_previously_used_for_exploration": true,
+  "excluded_bdb": [
+    "1kyn",
+    "1nde",
+    "1qbv",
+    "2ity",
+    "2xno",
+    "4eil",
+    "4mdn",
+    "5xvg"
+  ],
+  "normalization_status": "recomputed after BDB exclusions: train only, population std, canonical v7 raw targets",
+  "prepared_flags_are_historical": true,
+  "note": "These are the exact adopted assignments. Metadata export is not a graph or scientific-result audit."
+}

@@ -1,0 +1,511 @@
+{
+  "sources": [
+    {
+      "file": "runtime/batch_extract_esm_all.py",
+      "adopted_source_sha256": "eb241704410cc1be28900689e94c96fe9abb18b4d6d835640be8d2011076539e",
+      "portable_sha256": "242317c732d572367959341b1bf1b62f59cf2e5e436adbedf425ac615b5845e0",
+      "adaptations": []
+    },
+    {
+      "file": "runtime/build_fmo_fragment_pyg_graph_v6.py",
+      "adopted_source_sha256": "b28aa94cbfb0782845ee9e4b7953c99f86b02fb70d80e163a8567d3d16ed672c",
+      "portable_sha256": "dc2503dba5da4978d0add76e999204ead14304dd37bd4a82dc8ee360c5c31c7e",
+      "adaptations": []
+    },
+    {
+      "file": "runtime/create_fmo_fragment_edges_v2.py",
+      "adopted_source_sha256": "13dee75b03feb2a7853ee9a5bd0d2b0bd8774ece8c150d4d9e8c253d1395c25e",
+      "portable_sha256": "f32318dbcda958c32de2c834ca67f59afdb4123f07037c957734461e04e36ff8",
+      "adaptations": []
+    },
+    {
+      "file": "runtime/create_fmo_fragment_nodes_from_log_v11.py",
+      "adopted_source_sha256": "d9c1eec764f93e9c1d08e75e01fb4385f844c726318207fb6d3f402e5f95c102",
+      "portable_sha256": "2889fe84ba8745569579714aa106c5c1b9bb0ae004c0a604c6dbc74d89e32615",
+      "adaptations": []
+    },
+    {
+      "file": "runtime/predict_pic50_mlp_probe.py",
+      "adopted_source_sha256": "bea288b0b088affda8c970ad66e40dcbdec68ae65c008c857e66dabbfaef4afe",
+      "portable_sha256": "0c1055abde73cc501b6df67e1c15455edf50a5d3d26237e0b04cd1a6a08e76a4",
+      "adaptations": []
+    },
+    {
+      "file": "runtime/geopair_cfg_20261006.py",
+      "adopted_source_sha256": "b0cfc419451a114e4fb032ce75e0ef1c643e3b9b79285f8b8fb9ee0ebc17cc1c",
+      "portable_sha256": "de958e9218e10096418a3b3469541a22e194f2b9bc64e084f71c769bf36d320c",
+      "adaptations": [],
+      "original_implementation": "Koichiro Kato",
+      "subsequent_development_and_modifications": "Hirokazu Okamoto"
+    },
+    {
+      "file": "runtime/audit_fmo_pieda_v06_provisional_exclusion.py",
+      "adopted_source_sha256": "180ce2016fc39015bcf47d77561cf951869a9eb4d9745b3bfe30e3c0c44e2f21",
+      "portable_sha256": "c4d3ab262f3ed5fbe180febcb80b5476f65943d2485b53be1b9eb28272da7991",
+      "adaptations": [],
+      "original_implementation": "Koichiro Kato",
+      "subsequent_development_and_modifications": "Hirokazu Okamoto"
+    },
+    {
+      "file": "runtime/build_fmo_fragment_pyg_graph_v7_morganunified.py",
+      "adopted_source_sha256": "1857d39abd00790e13e41a4aa47c095440c8689096970ae77c288ecf198594c5",
+      "portable_sha256": "343bc9cc9fba5485b0ab197b5b3c05835099f46fcba75c7ca0d9a5f3f9c763a9",
+      "adaptations": [],
+      "original_implementation": "Koichiro Kato",
+      "subsequent_development_and_modifications": "Hirokazu Okamoto"
+    },
+    {
+      "file": "runtime/pretrain_masked_edge_multigraph_v17r_rawdist.py",
+      "adopted_source_sha256": "d766501fd72dcc4c4a14c1a872e158710921f49025f6faf09880788b21633b1b",
+      "portable_sha256": "24cc785d88813a1a4c3dfb42c849e998d19e85d6f06dbc3d0923eb1bf104e370",
+      "adaptations": [],
+      "original_implementation": "Koichiro Kato",
+      "subsequent_development_and_modifications": "Hirokazu Okamoto"
+    },
+    {
+      "file": "runtime/audit_fpv2_original_heads_20261021.py",
+      "adopted_source_sha256": "0abd783cf9356cab5307b6b68a497e92999dc2f00cbf06025270737bc2f1dbcd",
+      "portable_sha256": "661b72fa969b92869a03ae0dd17d02ebb8cbe86de6d18d36f74ded0ea87e93ec",
+      "adaptations": [
+        "machine_root",
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/bootstrap_px_selected_20261012.py",
+      "adopted_source_sha256": "39d2892dfd0a62a6bc6cddb6294619bd904d47b59c6adb8cd527ca831bcdcff3",
+      "portable_sha256": "6371bb6c1be00f1cc754e376059b11f1f4cde791b33bf382f10b61b5c56d701f",
+      "adaptations": [
+        "machine_root",
+        "optional_scheduler_metadata",
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/build_affinity_v2_20261016.py",
+      "adopted_source_sha256": "2557550a2ad0cbaad1d354c4e2b5db02ba78908a8b3d7b22d9710b696d1e5f71",
+      "portable_sha256": "5349b124c12f010de7ca1d928984ce7145c0bb72d064c467de982037258f4552",
+      "adaptations": [
+        "explicit_external_input",
+        "machine_root",
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/build_fmo_fragment_pyg_graph_v7_morganunified_esm.py",
+      "adopted_source_sha256": "257378a380002667da56067866f340072c55fb4a8d0b85bc345d7633ae0e000c",
+      "portable_sha256": "e53708fc41040de41a2868fe83c12e8cf876f119972839bbf82bedf9afed0eb5",
+      "adaptations": []
+    },
+    {
+      "file": "runtime/context_v2_full_20261103.py",
+      "adopted_source_sha256": "057c93c01b434246a75e6a01aad9495729ab23957d74e473693bcbbd96f670e2",
+      "portable_sha256": "b1b9f1b8cf5026357b081721985ecbb9daeee09e87394fcf68fb7ac4d22b592c",
+      "adaptations": [
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/context_v2_pieda_20261103.py",
+      "adopted_source_sha256": "d63ae1d449e94a7ce4658a94086474e615b3ae3487f95e75323e33ae150889bc",
+      "portable_sha256": "268bff8b80c2e619794aef1372f65656123a4517ef7114dd80c73e388a33d123",
+      "adaptations": [
+        "machine_root",
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/context_v2_px_20261103.py",
+      "adopted_source_sha256": "dabfbc366ea1810e24e104c38388d410b9b12a729448746cb769794c8d300667",
+      "portable_sha256": "6ecb6e28e99ee291233ddc053fd17956ce1c32a1b035f3404bef9c148b2563e8",
+      "adaptations": [
+        "machine_root",
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/context_v2_run_20261103.py",
+      "adopted_source_sha256": "82556e1bac6f075c0c34bfad5e1d481996caa9618a75638d07454ca6fcc92cdd",
+      "portable_sha256": "6c28044158136268dca5acb84ff3674705f36992d12a1808eabd2080aa040064",
+      "adaptations": [
+        "machine_root",
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/cv5_loops_20260925.py",
+      "adopted_source_sha256": "1ee097f8b7dd552b0ae73bd5315039aea1f690a5540f16a99f74c532f00b156e",
+      "portable_sha256": "dea23bb12c7d6cabbf40ec9a8e3ab3fb07f92d7ba5163d586c7b32c37c150e63",
+      "adaptations": []
+    },
+    {
+      "file": "runtime/cv5_pic50_20260925.py",
+      "adopted_source_sha256": "698ad3f006fd2e8038db2c2d684165369d42292cb434300cd98cb891c8ddf73f",
+      "portable_sha256": "ac257693328c1f5b82d60e5b79492396cb6b96cc9f1c2fd572fe310088ed8d83",
+      "adaptations": []
+    },
+    {
+      "file": "runtime/final_pieda_ci_20261012.py",
+      "adopted_source_sha256": "e76bf8a6860f0f03199cb5da1b6c641feee89715d4d10174b8df58620d430ddc",
+      "portable_sha256": "4134c822d3afcbe34c2aee27a091c06bca188da6ef9a4d844bd8dd9c6607e5f6",
+      "adaptations": [
+        "machine_root",
+        "optional_scheduler_metadata",
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/fpv2_full_20261017.py",
+      "adopted_source_sha256": "0bea6064986a09989bfccc6170809899390517fccff76e2c935876cecfb763b4",
+      "portable_sha256": "ed99d50d9498d234217f820ea48e250c4241e559334dc12892011d35ff270f8f",
+      "adaptations": [
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/fpv2_full_pieda_20261017.py",
+      "adopted_source_sha256": "61dac957af6aa9932d41df473661bfedf62c8c1e70b0d4c78d33f849e496b09a",
+      "portable_sha256": "cac90d02ac62be910f437c7945534678c8d761fc5027e4b1976a079dd9ed44ea",
+      "adaptations": [
+        "machine_root",
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/fpv2_full_px_20261017.py",
+      "adopted_source_sha256": "75b79d2a6f631ff031ba62cbc13a873e23d9de3fa53a40d33ae9f6d991d7f9c0",
+      "portable_sha256": "2e123d4219cfd151b128e012eff49fba3ae1262c46117a5e0e0500a5788bed69",
+      "adaptations": [
+        "machine_root",
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/fpv2_pieda_headcv_20261016.py",
+      "adopted_source_sha256": "c467fd1fb50e501d986a588648ac17cc66356b399ce1ac8b745e2fd5bf877aa8",
+      "portable_sha256": "baea8e2aa48e2dc9da88a8084d7bcb7b80c728bc4e6030e0a3eb3aede8eccc54",
+      "adaptations": [
+        "machine_root",
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/fpv2_px_20261016.py",
+      "adopted_source_sha256": "85669d192c52b586094f1117e1b970e2a2bb0fffdb110583180b348a78ee6b9b",
+      "portable_sha256": "2a01bd56985cbbdcaf230395c911506b7eab239f6d91488d203a52e15f91dfe0",
+      "adaptations": [
+        "machine_root",
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/fpv2_sg_b_20261016.py",
+      "adopted_source_sha256": "536cdfd2110214e20969c3049bee9583937fa8f9d4bcb3484ee174db528cb0b7",
+      "portable_sha256": "974375d236f2064823efd60d62597de9de247d2dad1dc8e7c677c74fc19fb122",
+      "adaptations": [
+        "machine_root",
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/pair_feedback_model.py",
+      "adopted_source_sha256": "754e1332814f0ac1bcf34e865e26e1ad793d93f1f39002e6b4ca66c09aa722a7",
+      "portable_sha256": "b93a9ba7c88828906c7838c5f461a849ca8ebb5756b6d634f00e4b7a5390fd24",
+      "adaptations": []
+    },
+    {
+      "file": "runtime/pair_gate_stages_20260916.py",
+      "adopted_source_sha256": "563a88295796b34e0864607d7256bde553d75872b8e1f5edb5084f492c7763d0",
+      "portable_sha256": "5df86d25797bc9ce95baeb1f0ffeb1be0d4d8706ed189d04e9528a435555a79b",
+      "adaptations": []
+    },
+    {
+      "file": "runtime/pair_gate_wide_20260924.py",
+      "adopted_source_sha256": "b08c276375a85201f6c573829bd7d4b9a9c1cc444f56dfee8ab8d275c08a73c9",
+      "portable_sha256": "3f26787e5377ada35d89656bfcb4af77a55384aa0da22b9d7ec231c85c8311e8",
+      "adaptations": []
+    },
+    {
+      "file": "runtime/pic50_matched_mlp.py",
+      "adopted_source_sha256": "bfa03c9e7dcb03eb45954a52777d4a17c9e7d85af9f24d8ddd38535dd647ab9e",
+      "portable_sha256": "b7013f8826312e05e58ce8ef437f2174caa3dd32f85c087414520ccd1c4fc15d",
+      "adaptations": [
+        "optional_scheduler_metadata",
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/pieda_context_v2_20261103.py",
+      "adopted_source_sha256": "c8eb8ecdc0d882a383690872c1552cae52a4b78274382720840f5ca625ceda92",
+      "portable_sha256": "e4d46b5be5edf8cbd7b4548f4c28c2695881770b9ff417c81ebb0acfdd3fcac8",
+      "adaptations": []
+    },
+    {
+      "file": "runtime/prepare_geo_pieda_matched_20260911.py",
+      "adopted_source_sha256": "db5c786612cdb7555784b167953020da17fe342237f1d0bdbc6aa61f38087726",
+      "portable_sha256": "fa9b6ec6b9a4c7f1669f7f7982f6fd868467f095c9804fd9861f209a0ffeaf57",
+      "adaptations": [
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/prepare_pieda_residual_bdb.py",
+      "adopted_source_sha256": "c457d05e10cd6faae444b9f503512b04b0bd744e8b935bb772069e92161866ec",
+      "portable_sha256": "f0415ad2970d00105ab6f6d43a03d69919bf46eeace2d27e2cfe57c1e3262a83",
+      "adaptations": [
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/random_fp_pieda_20261030.py",
+      "adopted_source_sha256": "e3d00fd5a04d9add05c969a2e1cbab66752a0ae5c8b94dbc00e84ed6838a3e47",
+      "portable_sha256": "74cdcf725873209682c8afcb708ce620b6b30bcffa321d31f30232d944a639b9",
+      "adaptations": [
+        "machine_root",
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/random_fp_prepare_20261030.py",
+      "adopted_source_sha256": "783e8232ffcb71a5289c54e52353a93415603e8940d67c3e6c31c8219c704ea4",
+      "portable_sha256": "a53a1d84b8dccf4cb91831c904441050fe59ca5186bb0ead47fb53bff50bfef6",
+      "adaptations": [
+        "machine_root",
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/random_fp_px_20261030.py",
+      "adopted_source_sha256": "50d09e0ea82895e33b7dd34cfd96068e623c08f4506ff192f36e0f1f1dc6a5e0",
+      "portable_sha256": "2c62df16de81145333c2706008e32307a2233588db59b4976db800955a878333",
+      "adaptations": [
+        "machine_root",
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/resume_head_screen_bdb_to300_20260914.py",
+      "adopted_source_sha256": "074c3c0eedf2fd4a07d51deb0bd5098e5843456c3b37443e91825623b8a81092",
+      "portable_sha256": "9059a0e2d7381e06233e653e3a5383f9ea956cbd941be7bf5fe26db5199d6ac5",
+      "adaptations": [
+        "machine_root",
+        "optional_scheduler_metadata",
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/run_cv5_20260925.py",
+      "adopted_source_sha256": "c5e3869e86ce7ed1180c72ff6d22df577ef36490a132d3d7e5c80f7dc67184a9",
+      "portable_sha256": "0aedd3bcbb581cb7ee49209741c6a921be94c2eeda4f29294e2e504e06ae3ede",
+      "adaptations": [
+        "machine_root",
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/run_px_headcv_20261012.py",
+      "adopted_source_sha256": "9398f438568250ffc36c8932bfdb79fd85d83fc0c3981ba4e464b53f07ea69d7",
+      "portable_sha256": "606c353e3b1c3ae223b3dcb0ca887c08dde8577158053fa5c49ea33034bb5d18",
+      "adaptations": [
+        "machine_root",
+        "optional_scheduler_metadata",
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/screen_d2_linear_bdb_20260914.py",
+      "adopted_source_sha256": "87884d4366fc5f69210444316dfe08186565d11d1e9fc07377a8a9fff3f972c8",
+      "portable_sha256": "d2dff47686e7efa4a64eee4ef44efb1fb1786002db342e8b8fb0431d685fff70",
+      "adaptations": [
+        "machine_root",
+        "optional_scheduler_metadata",
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/screen_g_p1_bdb_20260914.py",
+      "adopted_source_sha256": "ddf5d67e22b488d385643b6e8d966afdab30216df47f9554372cf9093ae52bbd",
+      "portable_sha256": "06774c383101687e1b216ad1aac8323602d4fd6815e0cf6296f3e5d5222fda6f",
+      "adaptations": [
+        "machine_root",
+        "optional_scheduler_metadata",
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/train_geo_pieda_matched_20260911.py",
+      "adopted_source_sha256": "64d47829a5db272b85bb1c4c3eb58d9f470e27755b95556075b69ef067bd1d78",
+      "portable_sha256": "fc68922aa29258d0236d4bcb4165cc7f066f40e84445dfb355a4abb015cbb628",
+      "adaptations": [
+        "optional_scheduler_metadata",
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/train_pair_gate_wide_20260924.py",
+      "adopted_source_sha256": "a5fadf1b0d01d6198cf007f09fa0b6e81b40ce54eab15c88aecfbaeec2943675",
+      "portable_sha256": "a6c403521a35ff24b463518b62e9be64f5f27eab4ff5ce2a3e0277fc2fea714b",
+      "adaptations": [
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/train_pair_residual_bdb.py",
+      "adopted_source_sha256": "05ef0c55b48a27ec57de2bcfe61559394180c07f5b094c6ccec3c8e02d2ef9e9",
+      "portable_sha256": "a22b99bbd0cb1cc94f51ecc9bbb8aef8bcac0a81b9cae4d36693e2e6d48c2272",
+      "adaptations": [
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/validate_affinity_flow_20261007.py",
+      "adopted_source_sha256": "eacd0f989683563dd65ef888c4990ed4891ca1cdf145902e32cfa6c699bd2f35",
+      "portable_sha256": "f6ab47e79354902e134cb1ea87032a4546f4259b67a6a9aa6fbefa3656ecb01f",
+      "adaptations": [
+        "machine_root",
+        "optional_scheduler_metadata",
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/rebuild_scop2_matched_v06prov_20260911.py",
+      "adopted_source_sha256": "35c8dfb7120532595344a00ccd3fbbfb4e79ac5e0fdef12ffa836101d8c5e166",
+      "portable_sha256": "246b7719188870832ee3c5bbb28d2f38c8037f3304326eba1cf48fcd0405dab4",
+      "adaptations": [
+        "optional_scheduler_metadata",
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/rebuild_bdb_fp_v2_20261016.py",
+      "adopted_source_sha256": "90d3f2fe22f0381a579b06c6dcdce1d5258f8e271aa9762b5516eb90a00a1305",
+      "portable_sha256": "f82f1c90a2cbc3dbc30473a2143529b7b2c2d977d1b309ab843dadcf0a8aff2d",
+      "adaptations": [
+        "machine_root",
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/waterfp_prepare_20261014.py",
+      "adopted_source_sha256": "a5a32a0dd9fe439daa4283da1e7a3a5cc1764425d755479c57c58ffc9f2f52a9",
+      "portable_sha256": "497f8ce8bbad123e5bdb7d76c6b28c3559672b29e32159a5246fd552b12c5029",
+      "adaptations": [
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/build_affinity_v2_adopted_20261016.py",
+      "adopted_source_sha256": "912f4bfdc8b82dceea222619e7c0cfadf2e2639389e82c5ea753deeca72ae575",
+      "portable_sha256": "aa754d6e0201a393e22bf3a185cded5ec468dff1f6b029c28d49048a00793ddc",
+      "adaptations": [
+        "machine_root",
+        "optional_scheduler_metadata",
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/aggregate_fpv2_full_pieda_20261017.py",
+      "adopted_source_sha256": "3be344f7d5a27de17ac88cac1a6010b79fcdec566d4f492d624ce2cd6ba93ab2",
+      "portable_sha256": "1fbedb7a7542a499d8b0a93c7a7ccda2d19da4d199a28518f098800207c8cc58",
+      "adaptations": [
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/prepare_fpv2_20261016.py",
+      "adopted_source_sha256": "c893fcfda568179afde4ef20e4c041d9027d04759f12fed94657d18e562f66a4",
+      "portable_sha256": "6f0ba99a84f860e1fa029325a9e112673d48c1cbf8d08ecb5e0729d2fb782232",
+      "adaptations": [
+        "machine_root",
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/random_fp_run_20261030.py",
+      "adopted_source_sha256": "23db3216fb047295efcbda9f0ecbf84a334d14d13d154a650f210241a1115d51",
+      "portable_sha256": "e8822d41ebe057dbcefaa85a9f2cbc4e34a5b3cda2eb51c14a0a4ca6ca01d37a",
+      "adaptations": [
+        "machine_root",
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/inventory_ligand_duplicates_after_assignment_20261105.py",
+      "adopted_source_sha256": "fe2d3b7b32241cc55cf95270470aa8bb043f1cde79482375057a0bbfce77a1db",
+      "portable_sha256": "1db618831fe92e8663061077bb0cef9e5455169879cf3e96ce49bf62cc6972c4",
+      "adaptations": [
+        "machine_root",
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/prepare_section33_figure_20261109.py",
+      "adopted_source_sha256": "8121ed608f8b0f9a5612ecba159a045411d2ccde0c293e9de6ddd3ad4b0f90bd",
+      "portable_sha256": "043d11176068b25e529f2e585e992532a19b5ce55f8f4edf9e3a4a9ff4137cc4",
+      "adaptations": [
+        "machine_root",
+        "optional_scheduler_metadata",
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/prepare_section34_figure_20261109.py",
+      "adopted_source_sha256": "73fb48d070565f8a702ace11d75bad15ad7a7bed149f85fefd417c612ca62863",
+      "portable_sha256": "dfdc22e9a49d267e96756ff92acdd121f3b06104ef1e0a11cd031767e023efc7",
+      "adaptations": [
+        "machine_root",
+        "optional_scheduler_metadata",
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/prepare_within_bootstrap_box_20261109.py",
+      "adopted_source_sha256": "9cfef90beef57e15c7da55b26428ca4edc57bc3823132d56fbc2b718ac6e8c60",
+      "portable_sha256": "929472f0906b3947bb5249bd3f71c57ef81b79ef0aa16f39b9176aba258c2431",
+      "adaptations": [
+        "machine_root",
+        "optional_scheduler_metadata",
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/within_target_affinity_20261105.py",
+      "adopted_source_sha256": "184561d1894144ee948eb2e7e70c5ad4c96fd65d925f2cb87377a95c72ef134c",
+      "portable_sha256": "e607d761ea5c447f5dbd27b273c23b673512b5d9fac4e10b7aedbbfa7e7d1706",
+      "adaptations": [
+        "machine_root",
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/within_target_all_representations_20261108.py",
+      "adopted_source_sha256": "28358a4d2c513a29b5c96c0f5b449f40d6373ab47e3a050c3b86ab6e68ba347b",
+      "portable_sha256": "7891eb4292d31cbf92e80fa9bfd48d3cc3407f07484cab7df826b30080b20272",
+      "adaptations": [
+        "machine_root",
+        "optional_scheduler_metadata",
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/analyze_ligand_similarity_20261106.py",
+      "adopted_source_sha256": "d90bab4e93c0557a8faecc220f917b768f706b123d67a28e3c8da8a957fa2528",
+      "portable_sha256": "b69e365c3e32e645bfb1b3bd67fdd932a6eac878e44136e5d17b038a7d41c0a3",
+      "adaptations": [
+        "machine_root",
+        "optional_scheduler_metadata",
+        "site_guard"
+      ]
+    },
+    {
+      "file": "runtime/ligand_protein_final_audit_20261109.py",
+      "adopted_source_sha256": "73fb2cf8a13956b589b63faeacf9a730d779c6033899d3014d08faf12af74f58",
+      "portable_sha256": "21a6cba7176438dbb8a7218fbfc6a5730c85486145640353c0e07deac7e5c646",
+      "adaptations": [
+        "machine_root",
+        "optional_scheduler_metadata",
+        "site_guard"
+      ]
+    }
+  ]
+}

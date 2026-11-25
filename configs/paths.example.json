@@ -1,0 +1,7 @@
+{
+  "workdir": ".",
+  "graphs_root": "graphs",
+  "output_root": "runs",
+  "device": "cuda",
+  "scheduler_required": false
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-25",
+  "operation": "Copy fixed membership/identifier columns from adopted study records; omit measured activities, ligand structures and model predictions.",
+  "within_target_cohort.csv": {
+    "source_record": "target_results_verified_20261107/20261107_64標的_中心化した193リガンド.csv",
+    "source_sha256": "e19d2637e37677ead0653233baaaa4ee1d1105bd049d045eec7539446601c087",
+    "rows": 193,
+    "targets": 64,
+    "row_identifier": "Original row order, zero-based cohort_row_id",
+    "copied_columns": ["evaluation_target_key", "evaluation_target_kind", "pdbids", "n_original_structures", "aggregation"]
+  },
+  "test_target_annotations.csv": {
+    "source_record": "within_target_affinity_20261105/test_predictions_annotated.csv",
+    "source_sha256": "818b52b9fc0459ef9eb22e672eee6784ad8627fd2b30f4c9374c08429d81a91e",
+    "rows": 309,
+    "copied_columns": ["pdbid", "target_group", "n_uniprot_ids", "shared_id_cluster"]
+  }
+}

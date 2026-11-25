@@ -1,0 +1,46 @@
+{
+  "data_policy": "external_existing_data_no_upstream_reconstruction",
+  "availability_review_date": "2026-11-25",
+  "affinity_labels": {
+    "sha256": "d28969287f5f400476ebe017807fd76868654fd84e1f0ff7974217bbb6a743b0",
+    "structures": 3135,
+    "train": 2826,
+    "test": 309,
+    "values_distributed": false,
+    "download_url": null
+  },
+  "bindingdb_source_csv": {
+    "sha256": "d75902c784e79bd26e2ff9c4f097f7ebaf76f140d87f6e9d18d2c4c1a42f9b64",
+    "version_or_archive_date": null,
+    "acquisition_status": "exact upstream source needs archived snapshot or approved deposit",
+    "official_download_page": "https://www.bindingdb.org/rwd/bind/chemsearch/marvin/Download.jsp"
+  },
+  "scop2_fmo": {
+    "citation": "10.1038/s41597-024-03999-2",
+    "original_filenames": [
+      "mp2_631gdp_all.tsv.xz",
+      "pdbfile.tar"
+    ],
+    "exact_download_url": "https://doi.org/10.6084/m9.figshare.25980112.v2",
+    "placement": "external/scop2/",
+    "terms_reference": "CC-BY according to Data Records of the cited paper; original files are not redistributed here."
+  },
+  "bindingdb_fmo": {
+    "citation": "10.26434/chemrxiv.15009601/v1",
+    "download_url": null,
+    "availability": "No verified public download of the exact adopted FMO collection; citation is not a data-download link.",
+    "placement": "external/bindingdb_fmo/",
+    "blocks_code_release": false,
+    "redistribution_permission": "not_confirmed"
+  },
+  "graphs": {
+    "available_here": false,
+    "identifiers_and_fingerprints": "structures.csv",
+    "download_url": null
+  },
+  "weights": {
+    "available_here": false,
+    "hashes": "../configs/adopted_runs.json",
+    "download_url": null
+  }
+}
