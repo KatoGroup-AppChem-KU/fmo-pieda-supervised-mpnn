@@ -1,8 +1,10 @@
 # FMO/PIEDA-supervised message-passing neural networks
 
-The [acknowledgments](ACKNOWLEDGMENTS.md) match the current manuscript. Deposit metadata and the supplied manuscript CRediT roles are maintained separately in the private development repository; no Zenodo deposit has been published by this preparation.
+This repository contains the code and reproduction metadata accompanying the manuscript “Extending Protein Representation Learning with Quantum Chemical Knowledge from the Fragment Molecular Orbital Method.”
 
-This repository contains the audited study code and frozen reproduction metadata. The exact source selection and checksums are recorded in [SOURCE_PROVENANCE.json](SOURCE_PROVENANCE.json). Core authorship is recorded in [AUTHORS.md](AUTHORS.md). Real-data execution checks are described in [VALIDATION.md](VALIDATION.md). Raw FMO data, affinity values, graphs and model weights are external inputs.
+The study investigates protein representation learning using fragment graphs with geometric pretraining (GEO) and additional supervision from FMO-derived pair interaction energy decomposition analysis (PIEDA). The primary GEO+PIEDA-C0 condition uses PIEDA only as a pretraining target and does not provide calculated PIEDA values to the encoder. The learned representations are evaluated by PIEDA readout and transfer to experimental activity prediction.
+
+The exact source selection and checksums are recorded in SOURCE_PROVENANCE.json. Core authorship is recorded in AUTHORS.md, real-data execution checks in VALIDATION.md, and external input requirements in INPUTS.md. Raw FMO data, affinity values, graphs, and model weights are external inputs.
 
 For data sources and exact placement, start with [INPUTS.md](INPUTS.md). SCOP2 has a cited public data deposit. The BindingDB-derived FMO collection has no verified public download in this release; its scientific citation is not presented as a download link. BDB-dependent workflows remain available for users who already have suitable inputs. Upstream FMO dataset reconstruction is outside this repository's scope.
 
