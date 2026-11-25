@@ -43,7 +43,7 @@ The command refuses an existing output directory. It generates the exact fixed a
 
 Encoder training uses AdamW, learning rate 0.001, weight decay 0.0001, batch size 8, gradient clipping 5, and no learning-rate scheduler; condition-specific settings are in the adopted configs. Mask selection and initialization use the existing seed-derivation functions with base seed 42, rather than a replacement random-seeding scheme.
 
-Frozen-encoder PIEDA head CV and encoder CV are different procedures. PIEDA head-only CV uses a fixed final encoder, five folds, up to 80 epochs, patience 10, Adam at 0.001 and batch size 4,096. Each readout/condition is refit for the median validation-selected epoch. pX heads use the adopted MLP/standardization, AdamW at 0.001 with weight decay 0.001, batch size 64, seed 42, and validation-selected epoch counts followed by refitting. These recipes still require the reviewed source and exact external inputs; this bundle alone does not reproduce the paper's numerical results.
+Frozen-encoder PIEDA head CV and encoder CV are different procedures. PIEDA head-only CV uses a fixed final encoder, five folds, up to 80 epochs, patience 10, Adam at 0.001 and batch size 4,096. Each readout/condition is refit for the median validation-selected epoch. pX heads use the adopted MLP/standardization, AdamW at 0.001 with weight decay 0.001, batch size 64, seed 42, and validation-selected epoch counts followed by refitting. These recipes still require the reviewed source and exact external inputs; Reproducing the reported numerical results additionally requires the external inputs described in [INPUTS.md](INPUTS.md).
 
 ## Within-target evaluation
 
